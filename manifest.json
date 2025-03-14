@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "TwitchChestsClaim",
+    "version": "1.0.0",
+    "author": "contact@maskweb.fr",
+    "description": "Recupere les coffres de points Twitch automatiquement",
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.twitch.tv/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
