@@ -1,6 +1,6 @@
 (function () {
-    const selector = 'button.ScCoreButton-sc-s7h2b7-0.kaIUar';
-    
+    const selector = 'button.ScCoreButton-sc-ocjdkq-0.fOtgyk';
+
     chrome.storage.local.get(['foundCount'], function (result) {
         if (typeof result.foundCount !== 'number') {
             chrome.storage.local.set({ foundCount: 0 });
