@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
     "name": "TwitchChestsClaim",
-    "version": "1.0.0",
-    "author": "contact@maskweb.fr",
-    "description": "Recupere les coffres de points Twitch automatiquement",
+    "version": "1.1.0",
+    "author": "augustin.pro.prs@gmail.com",
+    "description": "Claim Twitch chests automatically",
     "permissions": [
         "storage"
     ],
