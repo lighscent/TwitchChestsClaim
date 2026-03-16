@@ -1,5 +1,5 @@
 (function () {
-    const selector = 'button.ScCoreButton-sc-ocjdkq-0.fOtgyk';
+    const selector = 'button.ScCoreButton-sc-ocjdkq-0.hqIgGz';
 
     chrome.storage.local.get(['foundCount'], function (result) {
         if (typeof result.foundCount !== 'number') {
